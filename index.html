@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Listening Test- Abbie Millward</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="audtest.css">
+<script src="https://play.vidyard.com/9EW2QDf22hbih3SEf6RJtN.jpg" async></script>
+<script src="audtest.js" defer></script>
+</head>
+<body>
+<main>
+<h1>Listening Test</h1>
+
+<div class="leftvid">
+
+<div> 
+  <p>Listen to the song below, and use the textbox below it to describe the song in whatever way you see fit.</p>
+<script type="text/javascript" async src="https://play.vidyard.com/embed/v4.js"></script>
+<img
+  style="width: 100%; margin: auto; display: block;"
+  class="vidyard-player-embed"
+  src="https://play.vidyard.com/9EW2QDf22hbih3SEf6RJtN.jpg"
+  data-uuid="9EW2QDf22hbih3SEf6RJtN"
+  data-v="4"
+  data-type="inline"
+/>
+</div>
+<div>
+  <p> Nocturne - DBMK  </p>
+
+<!--
+For each additional channel needed copy one of the "channel" divs above (4 lines beginning "<div class="channel) & paste it below the 3 already in place. Edit the identifying letter(s) in between the <button> tag(s).
+Then perform similar with label+input element pairs in the form below (you will need to increment the "name" as well as the slider letter).
+Then make appropriate matching changes to the relevant php page.
+-->
+<form action="results2mail.php" name="Question 1" method="POST">
+    <p>Insert five tags you would use to describe this song:</p> 
+    <label>Tag 1</label><input type="text" name="q1t1"><br>
+    <label>Tag 2</label><input type="text" name="q1t2"><br>
+    <label>Tag 3</label><input type="text" name="q1t3"><br>
+    <label>Tag 4</label><input type="text" name="q1t4"><br>
+    <label>Tag 5</label><input type="text" name="q1t5"><br>
+
+    <p>Please enter any other thoughts or comments on the song above</p>
+    <input type="text" name="nocturne"><label></label>
+
+    <input type="submit" value="Submit">
+</form>
+
+</main>
+</body>
+</html>
